@@ -18,18 +18,19 @@ The **JIYU(Meet what you will meet)** is a web-based club management system, who
 
 Specially, potential scenarios of this system mainly include searching clubs, browsing activities information and club information, joining clubs, dropping out of a club , and so on. Both club members and non-club members can browse the information and join in the activities ,make comments through the system after they register and log in. In addition, the club members can use the system to organize activities, making the organization easier. As for club union supervisor, they have the authority to manage the online forum and highlight the activities ,which simplifies their work.
 
-![img](file:///D:\QQ\695290109\Image\C2C\Image2\I{C0{AE51RN}6BCLN4EOIIX.png)
+![cc3DdP.png](https://z3.ax1x.com/2021/04/14/cc3DdP.png)
 
 Besides, this online system also has the listed features: 
 - running in a networked environment.
 - handling the user authentication for security.
-- owning a centralized database and etc.
+- owning a centralized database and so on.
 
 ### 1.3 Glossary of Terms
 |Terms|Definition|
 |---|---|
 |**JIYU**| The name of our system, which means that you will meet the friends after using our system to join the world of different activities.|
 |**Club**|A club is usually composed of a group of people in the university who have common hobbies and goals. It is also usually an important part of university life.|
+|**Activity**|The online or offline activity held by the university club, whose main body is users or community members.|
 |**TOWS**| A diagram to analyze the main internal strengths, weaknesses and external opportunities and threats closely related to the research object with the idea of systematic analysis, and draw a series of corresponding conclusions. |
 |**Online Forum**|A website part, which refers to discussions among different people around the same topic|
 |**Authority**|the different operations that each actor can perform when using this system.|
@@ -38,7 +39,6 @@ Besides, this online system also has the listed features:
 |**Report**|Some complaints made by users about the inappropriate columns or comments (E.G.: insulting people or spreading terrifying information) on the forum. The supervisor will check whether it's  a proper report.|
 |**Club Statics**|Data on the development of the club, usually including changes in the number of clubs over time, participation in activities, etc.|
 |**Resume**|In our system,it refers to an account's basic information when registered,including email,cellphone number,student ID and some other minor information.|
-|**Activity**|The online or offline activitiy held by the university club, whose main body is users or community members.|
 |**Modify Permission**|The system modifies the user's authority and changes the scope of the user's function.|
 
 ### 1.4 Target Readers and Suggestions
@@ -51,7 +51,7 @@ As for use case modelling, they are described specifically in PART 3(Specific Re
 ### 2.1 Product Perspective
 This system is a web application, including web side and server. The server runs the database to process requests from users. The data requested by different roles to server is different, and more detailed information will be introduced in the use case section.
 
-![img](file:///D:\QQ\695290109\Image\C2C\Image2\KU8G]MY]6A37VK7XSAXOXQ5.png)
+![cc3BZt.png](https://z3.ax1x.com/2021/04/14/cc3BZt.png)
 
 ### 2.2 Product Features
 - The system is a web application, so only under the circumstance of Internet can users get access to it.
@@ -84,29 +84,29 @@ The following are assumptions and dependencies of this system:
 - **Persona**
 The purpose of developing JIYU (Meet what you will meet) exchange platform is to provide convenience for the university club management and students' participation in club activities. Therefore, in the stage of exploring system functions, this document summarizes virous users according to different people's personality and characteristics, living environment and values, and draw a user **persona** on this basis.
 
-  ![persona](D:%5CQQ%5C695290109%5CFileRecv%5Cpersona.png)
+  ![ccGE3F.png](https://z3.ax1x.com/2021/04/14/ccGE3F.png)
 
   <center>(The photos and other parts are fictional)</center>
 
 - **Empathy map**
 According to different user portraits, we draw an **empathy map** from the perspective of users. Through their thinking, speaking, hearing, doing and feeling in daily life, we can improve our system functions.
 
-	![persona_2](D:%5CQQ%5C695290109%5CFileRecv%5Cpersona_2.png)
+	![ccGiNV.png](https://z3.ax1x.com/2021/04/14/ccGiNV.png)
 
 - **User story**
   By summarizing and analyzing different personas and empathy maps, we have learned a lot about the expectations and needs of many virous users for our system, and displayed the user needs through **user stories**.
 
-  ![use story](D:%5CQQ%5C695290109%5CFileRecv%5Cuse%20story.png)
+  ![ccGPA0.png](https://z3.ax1x.com/2021/04/14/ccGPA0.png)
 
 - **User journey map**
 According to different users' different requirements for the system, the user stories are classified according to the users, and then each user story is tracked to build the steps of users' interaction with the system when they complete the requirements and the changes of their mentality, and draw the **user journey map** to help us design the system functions.
 
-	![image-20210412160622401](D:%5CQQ%5C695290109%5CFileRecv%5Cimage-20210412160622401.png)
+	![ccGFhT.png](https://z3.ax1x.com/2021/04/14/ccGFhT.png)
 
 - **User story map**
 On this basis, we get the most urgent needs of users for the system and the good ideas that can be improved, and then draw the user story map according to the urgency of the task. The **user story map** can help us build the use case model and distribute the team tasks, develop the feasible version in the shortest time according to the agile development idea, and then update the system according to the user needs.
 
-	![story map](D:%5CQQ%5C695290109%5CFileRecv%5Cstory%20map.png)
+	![ccGA9U.png](https://z3.ax1x.com/2021/04/14/ccGA9U.png)
 
 <div STYLE="page-break-after: always;"></div>
 
@@ -114,13 +114,13 @@ On this basis, we get the most urgent needs of users for the system and the good
 
 1. Global View on Use Case
 
-   ![System Overview](C:%5CUsers%5C69529%5CDesktop%5Cpic%5CSystem%20Overview.jpg)
+   ![cc33a6.jpg](https://z3.ax1x.com/2021/04/14/cc33a6.jpg)
 
 2. Visitor Login & Register System
 
    **Use Case Diagram**
 
-   ![Login&Register_System](C:%5CUsers%5C69529%5CDesktop%5Cpic%5CLogin&Register_System.jpg)
+   ![cc31Vx.jpg](https://z3.ax1x.com/2021/04/14/cc31Vx.jpg)
 
    **Detailed Specification for Use Case**
 
@@ -131,9 +131,9 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Specification    | Visitors register their own account and fill their own basic information; <br>System give authorization according to the type of the account. |
    | Actors           | **Visitor**                                                  |
    | Pre-condition    | Visitors enter the login webpage for the first time and click "sign in". |
-   | Basic Path       | 1.Visitors enter the website.<br/>2.Visitors click "sign up".<br/>3.Visitors fill basic information:<br/>    3.1 Visitors fill cellphone number\email\school ID.<br/>    3.2 Visitors set username and password. <br/>4.Visitors click "send verification code" and fill the code from text or email .<br/>5.System operate account identity verify according to school ID.<br/>6.Visitors successfully create an user account. |
-   | Alternative Path | 1.Visitors exit the webpage during information filling<br/>    system will show notification:"Information filling incomplete,do you want to exit anyway?"<br/>2.Visitors have problem during creating the account:<br/>    2.1 Visitors input illegal cellphone number\email\school ID<br/>           system will show notification:"Sorry,illegal cellphone number\email\school ID"<br/>    2.2 Visitors don't receive verification code<br/>           system will allow visitors to resend the verification code again after 60s countdown.<br/>    2.3 Visitors input wrong verification code<br/>            system will show notification:"Sorry,wrong verification code,please input again."<br/> |
-   | Post-condition   | Visitors get their personal account and authorization.  |
+   | Basic Path       | 1. Visitors enter the website.<br/>2. Visitors click "sign up".<br/>3. Visitors fill basic information:<br/>    3.1 Visitors fill cellphone number\email\school ID.<br/>    3.2 Visitors set username and password. <br/>4. Visitors click "send verification code" and fill the code from text or email .<br/>5. System operate account identity verify according to school ID.<br/>6. Visitors successfully create an user account. |
+   | Alternative Path | 1. Visitors exit the webpage during information filling<br/>    system will show notification:"Information filling incomplete,do you want to exit anyway?"<br/>2. Visitors have problem during creating the account:<br/>    2.1 Visitors input illegal cellphone number\email\school ID<br/>           system will show notification:"Sorry,illegal cellphone number\email\school ID"<br/>    2.2 Visitors don't receive verification code<br/>           system will allow visitors to resend the verification code again after 60s countdown.<br/>    2.3 Visitors input wrong verification code<br/>            system will show notification:"Sorry,wrong verification code,please input again."<br/> |
+   | Post-condition   | Visitors get their personal account and authorization.       |
 
    Use Case: Login
 
@@ -143,8 +143,8 @@ On this basis, we get the most urgent needs of users for the system and the good
 | Specification    | Visitors type account ID and password to login the account.<br>System provides extend services such as retrieving password. |
 | Actors           | **Visitor**                                                  |
 | Pre-condition    | Visitors have their own authorized account.                  |
-| Basic Path       | 1.Visitors enter the website.<br/>2.Visitors click "login".<br/>3.Visitors fill username and password into the webpage blanks:<br/>4.Visitors successfully login. |
-| Alternative Path | 1.Visitors input wrong account information:<br/>    1.1 If Visitors input invalid account ID,<br/>           system will reject login,show notification"Sorry,account doesn't exist,please input again".<br/>    1.2 If Visitors input wrong password,<br/>           system will reject login,show notification "Sorry,wrong password,please input again".<br/>    1.3 If Visitors input wrong password for 5 times,<br/>           system will ban visitors from logging in for 3 minutes. <br/>2.Visitors click "forget password?"<br/>           system will handle the request,send a verification code base on the account's cellphone number\email\school ID.<br/>           Visitors can input the verification code and reset the password. |
+| Basic Path       | 1. Visitors enter the website.<br/>2. Visitors click "login".<br/>3. Visitors fill username and password into the webpage blanks.<br/>4. Visitors successfully login. |
+| Alternative Path | 1. Visitors input wrong account information:<br/>    1.1 If Visitors input invalid account ID,<br/>           system will reject login,show notification"Sorry,account doesn't exist,please input again".<br/>    1.2 If Visitors input wrong password,<br/>           system will reject login,show notification "Sorry,wrong password,please input again".<br/>    1.3 If Visitors input wrong password for 5 times,<br/>           system will ban visitors from logging in for 3 minutes. <br/>2. Visitors click "forget password?"<br/>           system will handle the request,send a verification code base on the account's cellphone number\email\school ID.<br/>           Visitors can input the verification code and reset the password. |
 | Post-condition   | Visitors enter the system, become users and can access users' operations. |
 
 
@@ -152,7 +152,7 @@ On this basis, we get the most urgent needs of users for the system and the good
 
    **Use Case Diagram**
 
-   ![Club_Change_System](C:%5CUsers%5C69529%5CDesktop%5Cpic%5CClub_Change_System.jpg)
+   ![cc38IK.jpg](https://z3.ax1x.com/2021/04/14/cc38IK.jpg)
 
    **Detailed Specification for Use Case**
 
@@ -164,9 +164,9 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Specification    | Allow all users to establish a new club                      |
    | Actors           | **User**,**Club Union Supervisor**                           |
    | Pre-condition    | None                                                         |
-   | Basic Path       | 1.The use case starts when the User request to establish a new club<br>2.User fills in and submit the application form<br>3.The system upload the form and send it to Club Union Supervisor<br>4.Club Union Supervisor review the club alteration<br>    4.1 If the application is approved,the system will grants the authority of Club Leader to User <br>    4.2 If the application is denied, the system will send a message to User. |
-   | Alternative Path | 1.User can't search for a certain club<br>   1.1 User can establish a new club in the searching page |
-   | Post-condition   | 1.User establishes a new club<br>2.User become Club Leader of the new club |
+   | Basic Path       | 1. The use case starts when the User request to establish a new club<br>2. User fills in and submit the application form<br>3. The system upload the form and send it to Club Union Supervisor<br>4. Club Union Supervisor review the club alteration<br>    4.1 If the application is approved,the system will grants the authority of Club Leader to User <br>    4.2 If the application is denied, the system will send a message to User. |
+   | Alternative Path | 1. User can't search for a certain club<br>   1.1 User can establish a new club in the searching page |
+   | Post-condition   | 1. User establishes a new club<br>2. User become Club Leader of the new club |
 
    Use Case: Modify Club Information
 
@@ -176,15 +176,15 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Specification              | Allows the Club Leader to modify the specific club information |
    | Actors                     | **Club Leader**,**Club Union Supervisor**                    |
    | Pre-condition              | The operator has to be a Club Leader                         |
-   | Basic Path                 | 1.The use case starts when User request to modify the information of a club<br>2.User modify and submit the information form of Club<br>3.System upload the form and  send it to Club Union Supervisor<br>4.Club Union Supervisor review club information<br>    4.1 If application is approved, the system will upload new information to the club homepage<br>    4.2 If the application is denied, the system will send a message to the user |
-   | Alternative Flows of Event | 1. User doesn't fill all the information<br>    1.1 User receives a warning message says "The information cannot be empty"<br>    1.2 User input the information<br>2. User logs out of the system<br>3.User click "back" button after modifying<br>    3.1 User receive a warning message says "Please confirm upload information"<br>    3.2 If user click yes, then save information and go back to previous interface<br>    3.3 Otherwise go back to previous interface without uploading information |
+   | Basic Path                 | 1. The use case starts when User request to modify the information of a club<br>2. User modify and submit the information form of Club<br>3. System upload the form and  send it to Club Union Supervisor<br>4. Club Union Supervisor review club information<br>    4.1 If application is approved, the system will upload new information to the club homepage<br>    4.2 If the application is denied, the system will send a message to the user |
+   | Alternative Flows of Event | 1. User doesn't fill all the information<br>    1.1 User receives a warning message says "The information cannot be empty"<br>    1.2 User input the information<br>2. User logs out of the system<br>3. User click "back" button after modifying<br>    3.1 User receive a warning message says "Please confirm upload information"<br>    3.2 If user click yes, then save information and go back to previous interface<br>    3.3 Otherwise go back to previous interface without uploading information |
    | Post-condition             | None                                                         |
 
 4. Membership Change System
 
    **Use Case Diagram**
 
-   ![Membership_Changes_System](C:%5CUsers%5C69529%5CDesktop%5Cpic%5CMembership_Changes_System.jpg)
+   ![cc3YGD.jpg](https://z3.ax1x.com/2021/04/14/cc3YGD.jpg)
 
    **Detailed Specification for Use Case**
 
@@ -195,26 +195,26 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Specification    | Club leader applies to resign ,becoming a normal club member. |
    | Actors           | **User**,**Club Union Supervisor**                           |
    | Pre-condition    | The club leader applies to resign the leadership.            |
-   | Basic Path       | 1.The club leader submits the application for resignation. <br>2.Club Union Supervisor reviews the application form. <br>3.After the review is passed, the authority of the leader will be changed in the background. And basic information of the club will be updated at the same time. |
-   | Alternative Path | 1.Club Leader withdraw the application<br>   The club leader who have submitted application withdraws his or her application before the review of Club Union Supervisor;<br>2.Club Union Supervisor fails to pass the review<br>   Club Union Supervisor rejects the application of the leader. |
+   | Basic Path       | 1. The club leader submits the application for resignation. <br>2. Club Union Supervisor reviews the application form. <br>3. After the review is passed, the authority of the leader will be changed in the background. And basic information of the club will be updated at the same time. |
+   | Alternative Path | 1. Club Leader withdraw the application<br>   The club leader who have submitted application withdraws his or her application before the review of Club Union     Supervisor;<br>2. Club Union Supervisor fails to pass the review<br>   Club Union Supervisor rejects the application of the leader. |
    | Post-condition   | The club leader becomes an ordinary club member. And basic information of the club will be updated at the same time. |
 
    Use Case: Apply for Leadership
-   | Use Case         | Apply for Leadership**                                       |
+   | Use Case         | Apply for Leadership                                         |
 | ---------------- | ------------------------------------------------------------ |
 | ID               | UC06                                                         |
 | Specification    | Club member applies to lead the club                         |
 | Actors           | **User**,**Club Union Supervisor**                           |
 | Pre-condition    | A club member applies to lead the club without a leader.     |
-| Basic Path       | 1.The club member submits the application form for the leader of the club;<br>2.Club Union Supervisor reviews the application form. <br>3.After the review is passed, the authority of the member will be changed in the background. And basic information of the club will be updated at the same time. |
-| Alternative Path | 1.Club Member withdraw the application<br>   The club member who have submitted application withdraws his or her application before the review of Club Union Supervisor;<br>2.Club Union Supervisor fails to pass the review<br>   Club Union Supervisor rejects the application of the member. |
+| Basic Path       | 1. The club member submits the application form for the leader of the club;<br>2. Club Union Supervisor reviews the application form. <br>3. After the review is passed, the authority of the member will be changed in the background. And basic information of the club will be updated at the same time. |
+| Alternative Path | 1. Club Member withdraw the application<br>   The club member who have submitted application withdraws his or her application before the review of Club Union Supervisor;<br>2. Club Union Supervisor fails to pass the review<br>   Club Union Supervisor rejects the application of the member. |
 | Post-condition   | The club member who has submitted the application becomes the club leader and the basic information of the club is updated. |
 
 5. Activity Organization System
 
    **Use Case Diagram**
 
-   ![Activity_Organization_System](C:%5CUsers%5C69529%5CDesktop%5Cpic%5CActivity_Organization_System.jpg)
+   ![cc3JPO.jpg](https://z3.ax1x.com/2021/04/14/cc3JPO.jpg)
 
    **Detailed Specification for Use Case**
 
@@ -239,7 +239,7 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Actors           | **Club Member**                                              |
    | Pre-condition    | Users must be a member of the club that organizes the activity. |
    | Basic Path       | 1. Club members select activity section<br/>2. Club members views the activity held by own club<br/>3. Club members choose the activities they want to volunteer <br/>4. Club members fill in personal information<br/>        4.1  Club members fill in the ID and names<br/>        4.2  Club members fill in the phone numbers<br/>5. Club members submit the activity application<br/>6. Club members receive the message of successful application |
-   | Alternative Path | 1. Club member doesn’t log in to apply for the activity volunteer, the system should turn to the login interface.<br/>2. User doesn’t belong to the club<br/>    2.1. User will receive the message<br/>    2.2. The system turns to the activity interface<br/>3. If club member logs out during the process of filling in the information by accident, the content will remain<br/>4 .Club member leaves the page during the process of filling in the information<br/>     4.1. Club member will receive the message on whether submit or save the content<br/>     4.2. If club member chooses to submit, the application will be submitted automatically<br/>     4.3. Otherwise, the application will not be saved and user will leave the page<br/>5. Club member doesn’t fill in key information<br/>    5.1. Club member will receive the error message<br/>    5.2. Club member will fill in the information again<br/>6. Club member’s ID doesn’t conform to the format<br/>    6.1. Club member will receive the error message<br/>    6.2. Club member will fill in ID again |
+   | Alternative Path | 1. Club member doesn’t log in to apply for the activity volunteer, the system should turn to the login interface.<br/>2. User doesn’t belong to the club<br/>    2.1. User will receive the message<br/>    2.2. The system turns to the activity interface<br/>3. If club member logs out during the process of filling in the information by accident, the content will remain<br/>4. Club member leaves the page during the process of filling in the information<br/>     4.1. Club member will receive the message on whether submit or save the content<br/>     4.2. If club member chooses to submit, the application will be submitted automatically<br/>     4.3. Otherwise, the application will not be saved and user will leave the page<br/>5. Club member doesn’t fill in key information<br/>    5.1. Club member will receive the error message<br/>    5.2. Club member will fill in the information again<br/>6. Club member’s ID doesn’t conform to the format<br/>    6.1. Club member will receive the error message<br/>    6.2. Club member will fill in ID again |
    | Post-condition   | The club leaders can receive the application and review it.  |
 
    Use Case: Organize the Activities
@@ -294,7 +294,7 @@ On this basis, we get the most urgent needs of users for the system and the good
 
    **Use Case Diagram**
 
-   ![Online_Forum_Syste](C:%5CUsers%5C69529%5CDesktop%5Cpic%5COnline_Forum_Syste.jpg)
+   ![cc3Qq1.jpg](https://z3.ax1x.com/2021/04/14/cc3Qq1.jpg)
 
    **Detailed Specification for Use Case**
 
@@ -307,7 +307,7 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Actors           | **Visitor**                                                  |
    | Pre-condition    | Visitors enter the webpage                                   |
    | Basic Path       | 1.Visitors enter the website.<br/>2.Visitors click "online forum"<br/>3.system show forum column and topics on the website page<br/>4.Visitors can have a view on the website and each column topic.<br/> |
-   | Alternative Path | 1.Visitors exit the system.<br/>2.Visitors(non-login) try to create a column for discussion or leave comments on the webpage--system reject the operation,show notification"Sorry,you have to login to join discussion on the forum"<br/> |
+   | Alternative Path | 1.Visitors exit the system.<br/>2.Visitors(non-login) try to create a column for discussion or leave comments on the webpage<br>    system reject the operation,show notification"Sorry,you have to login to join discussion on the forum" |
    | Post-condition   | None                                                         |
 
    Use Case: Create Columns
@@ -339,11 +339,11 @@ On this basis, we get the most urgent needs of users for the system and the good
    | Use Case         | Report Inappropriate Comments or Columns                     |
    | ---------------- | ------------------------------------------------------------ |
    | ID               | UC16                                                         |
-   | Specification    | User decide the comments or columns that may cause bad social influence,report them with proper report reasons<br/>Club union supervisor handle the report request from users,reject the report\ delete illegal content and record the sender's account. |
+   | Specification    | User decide the comments or columns that may cause bad social influence,report them with proper report reasons<br/>Club union supervisor handle the report request from users,reject the report or delete illegal content and record the sender's account. |
    | Actors           | **User,Club Union Supervisor**                               |
    | Pre-condition    | Users successfully login.                                    |
    | Basic Path       | 1.include(check reports)<br/>2.Users see inappropriate comments or columns.<br/>3.Users click "report" button.<br/>4.Users input report reasons<br/>5.Users send report request to club union supervisor.<br/>6.Club Union supervisor check report content and react to the report.<br/>    6.1 if club union supervisor confirm the report,delete the illegal content,and send the illegal account to Administrator<br/>    6.2 otherwise,reject the report,the content of the column or column remains.<br/>7.Club union supervisor send results to the users who report the content. |
-   | Alternative Path | 1.Users exit the system.<br/>2.Users log out or return while editing the report reason.<br/>    show notification:"You are still editing your report reason,do you really want to exit? |
+   | Alternative Path | 1.Users exit the system.<br/>2.Users log out or return while editing the report reason.<br/>    show notification:"You are still editing your report reason,do you really want to exit?" |
    | Post-condition   | Users successfully report,and get report results from the club union supervisor. |
 
 <div STYLE="page-break-after: always;"></div>
@@ -352,37 +352,37 @@ On this basis, we get the most urgent needs of users for the system and the good
 - **Resign**
 The club leader submits the application for resignation in the system and Club Union Supervisor reviews the application. After the application is approved, the system will modify the leader's authority to ordinary membership. The club information will be modified too. Leaders who have submitted applications can also withdraw their applications before Club Union Supervisor reviews them.
 
-	![Resign!Resign_6](C:%5CUsers%5C69529%5CDesktop%5Cjpg%5CResign!Resign_6.jpg)
+	![cc3nxJ.jpg](https://z3.ax1x.com/2021/04/14/cc3nxJ.jpg)
 
 - **Apply for leadership**
 The club member submits the application for leadership in the system and Club Union Supervisor reviews the application. After the application is approved, the system will modify the member's authority to leadership. The club information will be modified too. Members who have submitted applications can also withdraw their applications before Club Union Supervisor reviews them.
 
-	![Apply for Leadership!Apply for Leadership_7](C:%5CUsers%5C69529%5CDesktop%5Cjpg%5CApply%20for%20Leadership!Apply%20for%20Leadership_7.jpg)
+	![cc1j58.jpg](https://z3.ax1x.com/2021/04/14/cc1j58.jpg)
 
 - **Establish a new club**
 The user submits the application for establishing a new club in the system and Club Union Supervisor reviews the application. After the application is approved, the system will build a new club and modify the applicant's authority to the leader of the club. Users who have submitted applications can also withdraw their applications before Club Union Supervisor reviews them.
 
-	![Establish Club!Establish Club_0](C:%5CUsers%5C69529%5CDesktop%5Cjpg%5CEstablish%20Club!Establish%20Club_0.jpg)
+	![cc3Prn.jpg](https://z3.ax1x.com/2021/04/14/cc3Prn.jpg)
 
 - **Alter Club Information**
 The leader submits an application to modify the community information in the system and Club Union Supervisor reviews the application. After the application is approved, the system will modify the club information. Leaders who have submitted applications can also withdraw their applications before Club Union Supervisor reviews them.
 
-	![Alter Club Info ](C:%5CUsers%5C69529%5CDesktop%5CAlter%20Club%20Info%20.jpg)
+	![cc1XUf.jpg](https://z3.ax1x.com/2021/04/14/cc1XUf.jpg)
 
 - **Login in**
 According to the user registration information, the system identifies the identity of visitors,  and provides visitors with the required page.
 
-	![Login!Login_2](C:%5CUsers%5C69529%5CDesktop%5Cjpg%5CLogin!Login_2.jpg)
+	![cc3E5T.jpg](https://z3.ax1x.com/2021/04/14/cc3E5T.jpg)
 
 - **Register**
 The visitor fills in the registration information, and the system sends a verification code after verifying the information. After receiving the verification code, the visitors filling the form and the system checks whether the code is entirely correct. If so, the system saves the information and activates the visitor's authority.
 
-	![Register!Register_4](C:%5CUsers%5C69529%5CDesktop%5Cjpg%5CRegister!Register_4.jpg)
+	![cc3m24.jpg](https://z3.ax1x.com/2021/04/14/cc3m24.jpg)
 
 - **Organize Activities**
 Club Leaders apply for activities based on the actual situation. First, log in to the activities page of the club exchange platform to fill in the application form, and then submit the application to the club management department. Club Union Supervisor will review the application after accepting the application. If the activity application is rejected, the corresponding reasons and comments will be given. If the activity review is passed, club union supervisor will collect an activity push from the head of the club, and then publish the activity information in the promotion section after review. The user can apply to participate in the activity by browsing the activity information. The members of the activity carrying out club can also choose to be the activity volunteer to help carry out the activity. Club Leaders will review the application according to the actual situation. If the application is rejected, the corresponding reason will be given. If they agree, it will be released to contact and wait for the activity to proceed smoothly.
 
-	![Organize Activity!Organize Activity _5](C:%5CUsers%5C69529%5CDesktop%5Cjpg%5COrganize%20Activity!Organize%20Activity%20_5.jpg)
+	![cc3ZPU.jpg](https://z3.ax1x.com/2021/04/14/cc3ZPU.jpg)
 
 <div STYLE="page-break-after: always;"></div>
 ## 4.Supplementary Specification
@@ -427,56 +427,56 @@ The user interfaces of the JIYU(Meet what you will meet) communication system an
 
 Visitors (Users who have not logged in to the system) can log in on this interface.
 
-![LoginIn](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CLoginIn.jpg)
+![cc3AaV.jpg](https://z3.ax1x.com/2021/04/14/cc3AaV.jpg)
 
 ### 5.2 Club Exploration
 
 Users can view a variety of clubs in the current interface, and choose the clubs they are interested in to join.
 
-![ClubFind](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CClubFind.jpg)
+![cc3pvj.jpg](https://z3.ax1x.com/2021/04/14/cc3pvj.jpg)
 
 ### 5.3 Club Forum
 
 Users can participate in discussions with other users in the current section.
 
-![Forum](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CForum.jpg)
+![cc3ibq.jpg](https://z3.ax1x.com/2021/04/14/cc3ibq.jpg)
 
 ### 5.4 Club Statistics
 
-The person in charge of the community can view the relevant data of the community on this interface, so as to provide help for the future development of the community.
+The Club Leaders can view the relevant data of the community on this interface, so as to provide help for the future development of the community.
 
-![ClubData](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CClubData.jpg)
+![cc1xPS.jpg](https://z3.ax1x.com/2021/04/14/cc1xPS.jpg)
 
 ### 5.5 Club Information Modification
 
-The person in charge of the community can modify the relevant information of the community in the current interface.
+The Club Leaders can modify the relevant information of the community in the current interface.
 
-![ClubInfo](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CClubInfo.jpg)
+![cc3CKs.jpg](https://z3.ax1x.com/2021/04/14/cc3CKs.jpg)
 
 ### 5.6 Member Arrangement
 
-The person in charge of the community can conveniently view and manage the members of the community in the current interface.
+The Club Leaders can conveniently view and manage the members of the community in the current interface.
 
-![MemberArrange](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CMemberArrange.jpg)
+![cc3eGF.jpg](https://z3.ax1x.com/2021/04/14/cc3eGF.jpg)
 
 ### 5.7 Activity Arrangement
 
-The person in charge of the club can view the ongoing or past activities of the club on the current interface.
+The Club Leaders can view the ongoing or past activities of the club on the current interface.
 
-![ActivityArrange](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CActivityArrange.jpg)
+![cc1z8g.jpg](https://z3.ax1x.com/2021/04/14/cc1z8g.jpg)
 
 ### 5.8 Activity Apply
 
-The person in charge of the club can apply for a new activity on the current interface, which will be reviewed by the Club Union Supervisor.
+The Club Leaders can apply for a new activity on the current interface, which will be reviewed by the Club Union Supervisor.
 
-![ActivityApply](C:%5CUsers%5C69529%5CDesktop%5Ctemp%5Csystem%5C%E5%A4%A7%E4%BD%9C%E4%B8%9A%5CActivityApply.jpg)
+![cc3S2Q.jpg](https://z3.ax1x.com/2021/04/14/cc3S2Q.jpg)
 
 <div STYLE="page-break-after: always;"></div>
 ## 6.TOWS Strategic Matrix
 
 Through OTWS strategic matrix analysis, we can further master the advantages and disadvantages of the system, combined with the opportunities and threats of the external market and the system analysis idea to formulate corresponding strategies for the next stage of system improvement and realization, avoid risks and develop advantages.
 
-![SWOT](D:%5CQQ%5C695290109%5CFileRecv%5CSWOT.png)
+![ccGVc4.png](https://z3.ax1x.com/2021/04/14/ccGVc4.png)
 
 ## 7.References
 
@@ -484,13 +484,9 @@ Through OTWS strategic matrix analysis, we can further master the advantages and
 
 This book consists of four parts. The first part introduces the basic concepts of object-oriented analysis and basic modeling knowledge; the second part organizes and summarizes the basic concepts of UML; the third part explains how to use UML to implement a project through an example; the fourth part discusses common problems in the application And to be discussed in depth.
 
-
-
 [2] Radosław Klimek and Piotr Szwed. Formal Analysis Of Use Case Diagrams[J]. Computer Science, 2010, 11
 
 The paper refers to the formal analysis of the use case diagrams. A formal model of use cases is proposed and its construction for typical relationships between use cases is described. The use case diagrams construction of the document refers to this article.
-
-
 
 [3] Evans, Andy, etal. "The UML as a Formal Modeling Notation." 19.7(2014):336- 348. 
 
@@ -530,8 +526,8 @@ The document is integrated and beautified by Ningyu Xiang.
 
 |Student Number|Name|Score Weight|
 |---|---|---|
-|1851055|Wang Mingjie|100%|
-|1954098|Xiang Ningyu|100%|
-|1951724|Chen Kaixin|100%|
-|1851049|Chen Zhongyue|100%|
-|1851231|Wang Liyou|100%|
+|1851055|Mingjie Wang|100%|
+|1954098|Ningyu Xiang|100%|
+|1951724|Kaixin Chen|100%|
+|1851049| Zhongyue Chen |100%|
+|1851231| Liyou Wang    |100%|
